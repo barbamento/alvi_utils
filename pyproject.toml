@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "alvi-utils"
+version = "0.1.0"
+description = ""
+authors = ["barbamento <lorenzo.alvisi@studio.unibo.it>"]
+readme = "README.md"
+packages = [{include = "alvi_utils"}]
+
+[tool.poetry.dependencies]
+python = ">3.9,<3.11"
+scipy = "^1.9.1"
+gensim = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
